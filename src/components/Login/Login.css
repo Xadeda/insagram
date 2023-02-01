@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginDiv{
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginImg{
+    height: 70vh;
+    width: 60%;
+    background-image: url('https://olhardigital.com.br/wp-content/uploads/2020/11/20201112124337.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.formDiv{
+    height: 70vh;
+    width: 50%;
+}
+
+.formDivOne{
+    height: 75%;
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.formDivOne > h1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.formDivOne > input{
+    padding: 7px;
+    border: 1px solid black;
+}
+
+.formDivOne > button{
+    padding: 2px 65px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(64, 102, 100, 0.646);
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.formDivOne > button:hover{
+    background-color: rgb(35, 42, 41);
+    color: rgb(182, 178, 178);
+}
+
+.or{
+    font-size: 16px;
+}
+.formDivOne > h5 {
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.formDivTwo{
+    height: 20%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formDivTwo > p{
+    font-size: 15px;
+}
+
+.link{
+    margin-left: 5px;
+    color: rgb(9, 41, 40);
+    text-decoration: none;
+}
